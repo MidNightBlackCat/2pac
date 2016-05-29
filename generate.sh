@@ -1,5 +1,5 @@
 
-./a.py
+./generate.py
 cat gfwlist.conf |grep server > xxx.conf
 sed 's/server=\/.//g' xxx.conf > yyy.conf 
 sed 's/\/127.0.0.1#1053//g' yyy.conf > zzz.conf 
